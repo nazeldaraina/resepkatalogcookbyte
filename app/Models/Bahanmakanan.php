@@ -104,3 +104,13 @@ class HitungTakaran {
         }
     }
 }
+
+class HitungTakaranBahanMakanan extends HitungTakaran
+{
+    public function hitungTakaran()
+    {
+        // Implementasi perhitungan takaran bahan makanan
+        echo "Melakukan perhitungan takaran bahan makanan...";
+    }
+
+}
