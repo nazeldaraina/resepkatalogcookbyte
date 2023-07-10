@@ -85,3 +85,22 @@ abstract class hitungTakaran {
     abstract public function hitungTakaran();
 
 }
+
+class HitungTakaran {
+    public function hitungTakaran($bahan)
+    {
+        // Melakukan perhitungan takaran berdasarkan bahan makanan
+        // Implementasi sesuai kebutuhan
+        
+        if ($bahan === 'gula') {
+            return 10 * $this->takaran;
+            return '1 sendok teh';
+        } elseif ($bahan === 'garam') {
+            return 5 * $this->takaran;
+            return '1/2 sendok teh';
+        } else {
+            // Bahan makanan tidak diketahui
+            return 'Takaran tidak diketahui';
+        }
+    }
+}
