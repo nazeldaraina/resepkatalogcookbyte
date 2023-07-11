@@ -19,8 +19,6 @@ class LangkahMakanModel extends Model
         $builder = $db->table($this->table);
         $builder->where('l_id', $id);
         $query = $builder->get();
- 
-
 
         return $query->getResult();
     }
